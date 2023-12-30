@@ -10,7 +10,13 @@
 
     <?php 
     // tipe data array
-    
+
+    $hewan = array('kura-kura', 'anjing', 'koala');
+    $nama = ['ucup', 'asep', 'susi'];
+
+    print_r($hewan);
+    echo $hewan[2];
+    echo $nama[1];
 
 
 
